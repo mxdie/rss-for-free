@@ -49,7 +49,7 @@ dlpath | 种子下载目录,注意用反斜杠，并用其结尾 |"d:/" |
 修改rss间隔为10分钟  
 `rff conf common sleep "600"`  
 修改mt站点种子下载目录为`d:/download/`  
-`rff conf mt dlpath "d:/download/"`
+`rff conf mt dlpath "d:/download/"`  
 注意将值用双引号括起来  
 
 ## 3 运行
