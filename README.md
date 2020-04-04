@@ -7,22 +7,29 @@
 ### 2.1 生成配置文件
 `rff conf init`
 ### 2.2 配置文件结构
-├── common  
-│　　└── sleep  
-├── mt  
-│　　├── rsslink  
-│　　├── sizemax  
-│　　├── sizemin  
-│　　├── cookie  
-│　　├── dlurl  
-│　　└── dlpath  
-└── nanyang  
-　　　├── rsslink  
-　　　├── sizemax  
-　　　├── sizemin  
-　　　├── cookie  
-　　　├── dlurl  
-　　　└── dlpath  
+```json
+{
+    "common": {
+        "sleep": "300"
+    },
+    "mt": {
+        "rsslink": "https://pt.com/torrentrss.php?https=1&rows=10&isize=1",
+        "sizemax": "1000",
+        "sizemin": "-1",
+        "cookie": "qw=xxx; ww=xxx",
+        "dlurl": "https://pt.com/download.php?id={id}&passkey=xxx&ipv6=1&https=1",
+        "dlpath": "d:/"
+    },
+    "nanyang": {
+        "rsslink": "",
+        "sizemax": "1000",
+        "sizemin": "-1",
+        "cookie": "",
+        "dlurl": "",
+        "dlpath": ""
+    }
+}
+```
 
 1st_key | 描述 |
 -|-|
