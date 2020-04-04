@@ -43,6 +43,7 @@ dlpath | 种子下载目录,注意用反斜杠，并用其结尾 |"d:/" |
 ### 2.3 修改配置
 #### 2.3.1 手动修改
 打开`%HOMEPATH%\rss-for-free\config.json`直接修改相应的值，注意要符合json文件规范  
+第一次使用时`rsslink` `cookie` `dlurl` `dlpath`必须修改  
 #### 2.3.2 命令行修改
 `rff conf 1st_key 2nd_key "value"`  
 例如  
